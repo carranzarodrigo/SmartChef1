@@ -5,7 +5,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseHelper {
-    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/SmartChef";
+    private static final String JDBC_URL = "jdbc:mysql://10.0.2.2:3306/SmartChef";
+
     private static final String USER = "root";
     private static final String PASSWORD = "123456789";
 
